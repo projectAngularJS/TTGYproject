@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h2 id="myh2">BBB<span>AAAA</span>BB</h2>
+		<img src="img/timg.jpg" width="100" id="img" />
+		<input type="button" value="替换" onclick="f()" />
+		<input type="button" value="克隆" onclick="f1()" />
+		<script type="text/javascript">
+			function f(){
+				var oldNode = document.getElementById("myh2");
+				var newNode = document.getElementById("img");
+				document.body.replaceChild(newNode,oldNode);
+				
+			}
+			function f1(){
+				//var oImg = document.getElementById("img");
+				var oh2 = document.getElementById("myh2");
+				//document.body.appendChild(oImg.cloneNode());
+				document.body.appendChild(oh2.cloneNode(true));
+			}
+		</script>
+	</body>
+</html>

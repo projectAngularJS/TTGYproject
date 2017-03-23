@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#mydiv{
+				border:3px solid red;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="background: yellow;padding: 10px;" id="box">
+				<input type="button" value="插入之前" onclick="insert()"  />
+		</div>
+		<div id="mydiv"></div>
+		<script type="text/javascript">
+			//insertBefore(新节点,目标节点)
+			function insert(){
+				var oBtn = document.getElementById("btn");//目标节点
+				var oDiv = document.getElementById("mydiv");
+				//var img = document.createElement("img");
+				//img.src="img/mouse.png";
+				//img.width=100;
+				//document.body.insertBefore(img,oBtn);
+				document.getElementById("box").insertBefore(oDiv,oBtn);//父元素box中的子元素oDtn
+			}
+		</script>
+	</body>
+</html>

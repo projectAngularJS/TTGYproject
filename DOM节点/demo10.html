@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<!--	<style type="text/css">
+			#mydiv{
+				background-color: red;
+				padding: 10px;
+			}
+		</style>-->
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+	</head>
+	<body>
+		<div id="mydiv">123</div>
+		<input type="button" value="获取" onclick="f()" />
+		<script type="text/javascript">
+			function f(){
+				var oDiv = document.getElementById("mydiv");
+				//console.log(window.getComputedStyle(oDiv,null)["backgroundColor"]);
+				//alert(window.getComputedStyle(oDiv,null)["backgroundColor"]);
+				//alert(oDiv.currentStyle["backgroundColor"]);
+				
+				//alert(getStyle(oDiv,"backgroundColor"));
+			}
+			
+			/*var str;
+			if(str){
+				alert("yes")
+			}else{
+				alert("no");
+			}*/
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		姓名:<input type="text" id="name" /><br>
+		密码:<input type="text" id="pwd" /><br>
+		确认密码:<input type="text" id="name" /><br>
+		性别:<input type="radio" name="sex" value="男" />男
+			<input type="radio" name="sex" value="女" />女
+		<br>
+		<input type="button" value="注册" onclick="f()" />
+		<script type="text/javascript">
+			var num= 1;
+			function f(){
+				//验证过程
+				
+				//将值放到表格
+				var name = document.getElementById("name").value;
+				var pwd = document.getElementById("pwd").value;
+				var sexs = document.getElementsByName("sex");
+				var sex;
+				for(var i=0;i<sexs.length;i++){
+					if(sexs[i].checked==true){
+						sex = sexs[i].value;
+					}
+				}
+				var arr = [num,name,pwd,sex,"<input type='button' value='删除' />"];
+				var tab = document.createElement("table");
+				tab.border=1;
+				var tbody = document.createElement("tbody");
+				var tr = document.createElement("tr");
+				for(var i = 0;i<5;i++){
+					var td = document.createElement("td");
+					td.innerHTML=arr[i];
+					td.width=100;
+					tr.appendChild(td);
+				}
+				
+				document.body.appendChild(tab);
+				tab.appendChild(tbody);
+				tbody.appendChild(tr);
+				num++;
+			}
+		</script>
+	</body>
+</html>

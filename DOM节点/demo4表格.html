@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		行:<input type="text" id="rows" /><br>
+		列:<input type="text" id="cols" /><br>
+		<input type="button" value="创建" onclick="createTab()" />
+		<script type="text/javascript">
+			//创建个8行6列表格
+			function createTab(){
+				var rows = document.getElementById("rows").value;
+				var cols = document.getElementById("cols").value;
+				if(rows=="" || cols==""){
+					alert("行或列不能为空");
+					return;
+				}
+				if(isNaN(rows)==true || isNaN(cols)==true){
+					alert("行或列必须为数字");
+					return;
+				}
+				var tab = document.createElement("table");
+				tab.width=1000;
+				tab.border="1";
+				tab.id="mytab";
+				var tbody = document.createElement("tbody");
+				for(var i=0;i<rows;i++){
+					var tr = document.createElement("tr");
+					for(var j=0;j<cols;j++){
+						var td = document.createElement("td");
+						td.innerHTML="第"+i+"行,第"+j+"列";
+						tr.appendChild(td);
+					}
+					tr.lastChild.innerHTML="<input type='button' value='删除' onclick='del(this)'/>";
+					tbody.appendChild(tr);
+				}
+				document.body.appendChild(tab);
+				tab.appendChild(tbody);
+				
+				//奇偶行不同色
+				var trs = document.getElementById("mytab").getElementsByTagName("tr");
+				for(var i=0;i<trs.length;i++){
+					if(i%2==0){
+						trs[i].style.background="red";
+					}else{
+						trs[i].style.background="yellow";
+					}
+				}
+				//鼠标经过变色
+				var bgColor;
+				for(var i=0;i<trs.length;i++){
+					trs[i].onmouseover=function(){
+						bgColor=this.style.background;
+						this.style.background="#ccc";
+					}
+					trs[i].onmouseout=function(){
+						this.style.background=bgColor;
+					}
+				}
+			}
+			
+			//删除
+			function del(obj){
+				var f = confirm("请问您确定要删除吗? 亲");
+				if(f)
+				obj.parentNode.parentNode.parentNode.removeChild(obj.parentNode.parentNode);
+			}
+			
+		</script>
+	</body>
+</html>

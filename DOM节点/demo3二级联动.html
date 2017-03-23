@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<select id="provice" onchange="addCity(this.value)">
+			<option value="">请选择</option>
+		</select>
+		<select id="city">
+			<option value="">请选择</option>
+		</select>
+		
+		<script type="text/javascript">
+			var arr = ["河北省","山东省","山西省","湖南省","湖北省","广西壮族自治区"];
+			//			0        1      2     3        4      5
+			var arr1 = [["保定","石家庄","唐山","承德","张家口"],["济南","青岛"],["太原","大同"],["长沙"],["武汉"],["桂林"]]
+			//	0                  1              2             3       4       5
+							//arr1[0]
+		window.onload=function(){
+				for(var i=0;i<arr.length;i++){
+					var op = document.createElement("option");
+					op.innerHTML=arr[i];
+					op.value=i;
+					document.getElementById("provice").appendChild(op);
+				}
+			}
+			function addCity(n){
+				var city = document.getElementById("city");
+				/*city.length=1;*/
+				//找到city除了第一个option之外的所有option删除
+				var ops = document.getElementById("city").getElementsByTagName("option");
+					for(var i=ops.length-1;i>=1;i--){
+						city.removeChild(ops[i]);
+					}
+				if(n!=""){
+					for(var i=0;i<arr1[n].length;i++){
+						var op = document.createElement("option");
+						op.innerHTML=arr1[n][i];
+						city.appendChild(op);
+					}
+				}
+			}
+		</script>
+	</body>
+</html>

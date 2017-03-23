@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#mydiv{
+				border: 3px solid red;
+				width: 800px;
+				height: 50px;
+				
+			}
+			#box{
+				width: 800px;
+				height: 100px;
+				background: green;
+				border: 3px solid black;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<input type="button" name="btn" value="啊啊啊" id="btn" onclick="f()"/>	
+		</div>
+		<div id="mydiv">
+		</div>
+		<script type="text/javascript">
+		function f(){
+			var btn = document.getElementById("btn");
+			var mydiv = document.getElementById("mydiv");
+			document.getElementById("box").insertBefore(mydiv,btn);
+		}
+		</script>
+	</body>
+</html>
