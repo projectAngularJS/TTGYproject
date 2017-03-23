@@ -1,0 +1,66 @@
+#class_header {
+  height: 1.6226rem;
+  width: 100%;
+  background-color: #63A230;
+  text-align: center;
+  color: white;
+  font-size: 0.396296rem;
+  line-height: 1.6226rem;
+}
+#class_header section {
+  float: left;
+}
+#class_header section img {
+  height: 0.7rem;
+  width: 0.7rem;
+  margin: 0.45162rem 0.3rem 0 0.3rem;
+}
+#class_header section input {
+  height: 1.03226rem;
+  background-color: #D7E7CA;
+  line-height: 1.6226rem;
+  color: #A4A59F;
+  width: 5.5rem;
+  border-radius: 0.2rem;
+  border: none;
+  margin-top: 0.2rem;
+}
+#left {
+  width: 25%;
+  float: left;
+  overflow-y: scroll;
+  height: 14.51613rem;
+  font-size: 0.32296rem;
+}
+#left ul li {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  background-color: #F1F1F1;
+  border: 1px solid #E0E0E0;
+}
+#right {
+  height: 14.51613rem;
+  float: right;
+  overflow-y: scroll;
+  width: 75%;
+}
+#right ul {
+  float: left;
+}
+#right ul li {
+  width: 24%;
+  float: left;
+  text-align: center;
+  margin: 0 0.25rem;
+  height: 2.6rem;
+}
+#right ul li img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+#right ul li p {
+  height: 1rem;
+  line-height: 1rem;
+}
+/*# sourceMappingURL=class.css.map */

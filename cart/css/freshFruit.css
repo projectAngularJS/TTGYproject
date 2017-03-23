@@ -1,0 +1,72 @@
+
+/*头部*/
+header{
+	width:10.0rem;
+	height: 1.240741rem;
+	background:#62a12f ;
+	display: flex;
+	justify-content: space-between;
+	line-height: 1.240741rem;
+}
+header p img{
+	width:0.592593rem;
+	height:0.592593rem;
+	margin:0.324074rem;
+}
+header p:nth-of-type(2){	
+	font-size:0.518519rem ;
+	color: white;
+}
+
+/*shoplist*/
+#shoplist{
+	width: 10rem;
+	height: 15.0rem;
+	overflow-y:scroll ;
+	
+}
+/*2.407407rem*/
+#shoplist li{
+	width: 10rem;
+	height:2.962963rem;
+	border-bottom:0.027778rem solid #dbdbdb ;
+	position: relative;
+}
+#shoplist li .shoplistLeft{
+	float: left;
+	width: 2.962963rem;
+}
+#shoplist li .shoplistLeft img{
+	width:2.407407rem ;
+	height:2.407407rem ;
+	margin:0.277778rem ;
+}
+#shoplist li .shoplistRight{
+	float: right;
+	width:6.944444rem;
+	
+}
+#shoplist li .shoplistRight p{
+	line-height: 1.0rem;
+}
+#shoplist li .shoplistRight p:nth-of-type(1){
+	font-size: 0.416667rem;
+	font-weight: bold;
+}
+#shoplist li .shoplistRight p:nth-of-type(2) span{
+	color: #dbdbdb;
+}
+#shoplist li .shoplistRight p:nth-of-type(3) span{
+	color:#f6ac00 ;
+	font-size:0.37037rem ;
+}
+#shoplist li .car{
+	position: absolute;
+	right: 0.555556rem;
+	bottom:0.277778rem;
+	width:0.555556rem ;
+	height: 0.555556rem;
+	
+	
+	
+}

@@ -1,0 +1,410 @@
+#home_body{
+	width: 10rem;
+	/*height: 40rem;*/
+	background-color: #eeeeee;
+}
+
+.header{
+	width: 10.0rem;
+	height: 1.277778rem;
+	line-height: 1.277778rem;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 6;
+	background-color: rgba(101, 160, 50, 0);
+	
+}
+
+.header .header_position{
+	float: left;
+	width: 1.833333rem;
+	text-align: center;
+	color: white;
+}
+
+.header .header_position em{
+	/*font-size: 0.416667rem;*/
+	font-size: 0.407407rem;
+	
+}
+
+.header .header_position i{
+	width: 0.222222rem;
+	height: 0.222222rem;
+}
+
+.dot-bottom {  
+    font-size: 0;  
+    line-height: 0;  
+    border-width: 0.185185rem;  
+    border-color: white;  
+    border-bottom-width: 0;  
+    border-style: dashed;  
+    border-top-style: solid;  
+    border-left-color: transparent;  
+    border-right-color: transparent;  
+} 
+
+.header .header_search{
+	float: left;
+}
+
+.header .header_search input{
+	width: 7.888888rem;
+	height: 0.833333rem;
+	line-height: 0.833333rem;
+	border: none;
+	border-radius: 0.138889rem;
+	background: white url(../img/h_search.jpg) no-repeat 0.277778rem center;
+	background-size: 0.416667rem 0.416667rem;
+	text-indent: 0.972222rem;
+	font-size: 0.407407rem;
+
+}
+
+/*=================================轮播===========================================*/
+
+.lunbo_img img{
+	width: 10.0rem;
+	height: 6.111111rem;
+}
+
+/*=================================导航=============================================*/
+.nav{
+	width: 10rem;
+	height: 4.444444rem;
+	display: flex;
+	align-items: center;
+	flex-flow: wrap;
+}
+.nav figure{
+	width: 25%;
+	height: 50px;
+	text-align: center;
+}
+.nav img{
+	width: 0.972222rem;
+	height: 0.972222rem;
+}
+
+/*==================================天天快报===================================================*/
+
+.letters{
+	width: 10rem;
+	height: 0.833333rem;
+	line-height: 0.833333rem;
+	background-color: white;
+	border-top: 2px solid #f0f0f0;
+	border-bottom: 2px solid #dcdcdc;
+}
+
+.letters .letter_left{
+	width: 2.037037rem;
+	height: 0.833333rem;
+	text-align: center;
+	background: url(../img/letters_bg.jpg) no-repeat right center;
+	background-size: 0.027777rem 0.444444rem;
+	float: left;
+}
+
+.letters .letter_left img{
+	width: 1.527777rem;
+	height: 0.361111rem;
+	padding-top: 0.208333rem;
+}
+
+.letters .letters_right {
+	height: 0.833333rem;
+	width: 7.944444rem;
+	float: left;
+	text-indent: 0.166666rem;	
+	overflow: hidden;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	/*overflow:hidden;*/
+	
+}
+.letters .letters_right li{
+	height: 0.833333rem;
+	line-height: 0.833333rem;
+	list-style: none;
+}
+
+
+.letters .letters_right a {
+	font-size: 0.305555rem;
+
+}
+
+/*=============================================================================*/
+
+.main_topImg img{
+	width: 10rem;
+	height: 4.263888rem;
+	margin-top: 0.416666rem;
+}
+	
+/*================================================================================*/
+
+.daydayBuy{
+	width: 10rem;
+	height: 1.777777rem;
+	line-height: 1.777777rem;
+	text-align: center;
+	background-color: white;
+	margin: 0.416666rem 0;
+}
+
+.daydayBuy a, .main_iceArea a{
+	font-size: 0.416666rem;
+}
+
+.daydayBuy a i img, .main_iceArea a i img{
+	width: 0.263888rem;
+	height: 0.277777rem;
+}
+
+/*===================================================================================*/
+.main_buyImg{
+	width: 10rem;
+	height: 5.972222rem;
+}
+.main_buyImg, .main_chooseTopicImg{
+	width: 10rem;
+	height: 5.972222rem;
+}
+
+.main_buyImg img , .main_chooseTopicImg img{
+	width: 10rem;
+	height: 5.972222rem;
+
+}
+
+.main_buyNav, .main_chooseTopicNav{ 
+	height: 4.166666rem;
+	display: flex;
+	background-color: white;
+	flex-direction: row;
+	align-items: center;
+	/*overflow: hidden;*/
+	overflow-x: scroll;	
+	padding: 0.277777rem 0;
+}
+
+.main_buyNav figure, .main_chooseTopicNav figure{
+	width: 2.9rem;
+	height: 4.166666rem;
+	margin-left: 0.416666rem;
+	text-align: center;
+}
+
+.main_buyNav figure img, .main_chooseTopicNav figure img{
+	width: 2.083333rem;
+	height: 2.083333rem;
+}
+
+
+.main_buyNav figure figcaption, .main_chooseTopicNav figure figcaption{
+	width: 2.430555rem;
+	text-align: center;
+}
+
+.main_buyNav figure figcaption p:first-of-type, .main_chooseTopicNav figure figcaption p:first-of-type{
+	width: 2.430555rem;
+	height: 0.472222rem;
+	line-height: 0.472222rem;
+	margin-top: 0.277777rem;
+	white-space:nowrap; 
+	text-overflow:ellipsis; 
+	overflow:hidden;
+}
+
+.main_buyNav figure figcaption p:last-of-type, .main_chooseTopicNav figure figcaption p:last-of-type{
+	height: 0.472222rem;
+	line-height: 0.472222rem;
+	color: #f58232;
+}
+
+.main_buyNav figure .buynav_span, .main_chooseTopicNav figure .chooseTop_span{
+	width: 2.430555rem;
+	height: 0.555555rem;
+	/*padding-top: 0.277777rem;*/
+}
+
+.main_buyNav figure .buynav_span span, .likeBuy .likeBuy_span span{
+	height: 0.416666rem;
+	display: inline-block;
+	color: white;
+	background-color: #ff5354;
+	padding: 0.092592rem;
+	border-radius: 0.277777rem;
+	
+}
+/*======================================================================================*/
+
+.main_newfood{
+	height: 3.777777rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	overflow-x: scroll;
+	margin-bottom: 0.277777rem;
+	padding: 0.277777rem 0;
+}
+
+.main_newfood figure{
+	width: 8.5rem;
+	height: 3.777777rem;
+	float: left;
+	border-right: 0.027777rem solid #d7d7d7;
+}
+
+.main_newfood figure img{
+	width: 3.777777rem;
+	height: 3.777777rem;
+	float: left;
+}
+
+.main_newfood figure figcaption{
+	width: 4.166666rem;
+	height: 3.472222rem;
+	margin-top: 0.277777rem;
+	margin-right: 0.555555rem;
+	float: left;
+}
+
+.main_newfood figure figcaption h4{
+	padding-top: 0.277777rem;
+	height: 0.555555rem;
+	line-height: 0.555555rem;
+	font-size: 0.388888rem;
+	font-weight: normal;
+}
+
+.main_newfood figure figcaption p{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	color: #ababab;
+	font-size: 0.361111rem;
+}
+
+.main_newfood figure figcaption span strong{ 
+	color: #f28242;
+	font-size: 0.472222rem;
+}
+
+/*==========================================================================================*/
+.main_chooseTopicImg{
+	position: relative;
+}
+
+.main_chooseTopicImg .main_triangle img{
+	width: 0.648148rem;
+	height: 0.203703rem;
+	position: absolute;
+	bottom: 0;
+	left: 4.74074rem;
+}
+
+.main_chooseTopicNav figure{
+	position: relative;
+}
+
+.main_chooseTopicNav figure img{
+	padding-top: 0.185185rem;
+}
+
+.main_chooseTopicNav figure .chooseTop_span span{
+	height: 0.416666rem;
+	display: inline-block;
+	color: white;
+	background-color: #ff5354;
+	padding: 0.092592rem;
+	border-radius: 0.277777rem;
+	position: absolute;
+	top: 0;
+	left: 0.185185rem;
+	
+}
+
+/*=========================================================================*/
+
+.main_iceArea{
+	width: 10rem;
+	height: 1.777777rem;
+	text-align: center;
+	background-color: white;
+	margin: 0.416666rem 0;
+}
+
+.main_iceArea a{
+	width: 10rem;
+	height: 0.925925rem;
+	line-height: 0.925925rem;
+	padding-top: 0.277777rem;
+	display: block;
+}
+
+.main_iceArea p {
+	color: #cbcac8;
+}
+
+
+/*===============================================================================*/
+
+
+.likeBuy{
+	width: 10rem;
+	/*height: 50rem;*/
+	background-color: #f8f8f6;
+}
+
+.likeBuy figure{
+	width: 9.074074rem;
+	height: 4.444444rem;
+	margin: 0.37037rem 0.462962rem;
+}
+
+.likeBuy figure img{
+	width: 3.425925rem;
+	height: 3.425925rem;
+	margin-top: 0.462962rem;
+	float: left;
+	
+}
+
+.likeBuy figure figcaption{
+	float: left;
+	width: 4.814814rem;
+	height: 3.425925rem;
+	margin: 0.74074rem 0 0 0.462962rem;
+	white-space:nowrap; 
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.likeBuy figcaption h3{
+	height: 0.833333rem
+	line-height: 0.833333rem;
+	font-size: 0.462962rem;
+}
+
+.likeBuy figcaption p{
+	height: 0.74074rem;
+	line-height: 0.74074rem;
+	font-size: 0.37037rem;
+	margin: 0.092592rem;
+}
+
+.likeBuy figcaption p:first-of-type{
+	width: 4.814814rem;
+	color: #868684;
+	
+}
+
+.likeBuy figcaption p:last-of-type{
+	color: #ff7f00;
+}

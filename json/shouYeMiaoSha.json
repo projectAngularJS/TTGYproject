@@ -1,0 +1,219 @@
+{
+  "product": [
+    {
+      "name": "鑻忚彶鏋佽杽0.1鍗敓宸�",
+      "specifics": "8鐗�",
+      "market_price": "16.5",
+      "price": "5.9",
+      "number": "45",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2313/20160923134218_279089.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "鍗冲皢寮€鎶�"
+    },
+    {
+      "name": "缁磋揪瓒呴煣绾告娊",
+      "specifics": "3鍖�/鎻�",
+      "market_price": "18",
+      "price": "6.9",
+      "number": "0",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2313/20160923134039_305852.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "鍗冲皢寮€鎶�"
+    },
+    {
+      "name": "缁熶竴棣欒荆鍛宠€佸潧閰歌彍",
+      "specifics": "120g/妗�*2",
+      "market_price": "10",
+      "price": "4.9",
+      "number": "57",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2318/20160923182453_647553.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "鍗冲皢寮€鎶�"
+    },
+    {
+      "name": "閲戦敚鑲夌矑澶氱尓鑲夐鑲�",
+      "specifics": "320g/琚�",
+      "market_price": "13.5",
+      "price": "6.9",
+      "number": "0",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2313/20160923133501_753538.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "鍗冲皢寮€鎶�"
+    },
+    {
+      "name": "姊呮灄鍗堥鑲夌綈澶�",
+      "specifics": "340g",
+      "market_price": "14.9",
+      "price": "7.9",
+      "number": "11",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114740_971295.jpg@355w_355h_90Q",
+      "enable": true,
+      "btnText": "7.9鍏�鎶㈣喘"
+    },
+    {
+      "name": "濂戒附鍙嬭柉鎰胯柉鐗囦笁杩炲寘",
+      "specifics": "104g*3/鍖�",
+      "market_price": "23.9",
+      "price": "12.9",
+      "number": "22",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114847_954423.jpg@355w_355h_90Q",
+      "enable": true,
+      "btnText": "12.9鍏�鎶㈣喘"
+    },
+    {
+      "name": "鐖遍矞铚偮风櫨棣欐灉",
+      "specifics": "120g 2绮�/琚�",
+      "market_price": "19",
+      "price": "6.9",
+      "number": "6",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114603_195269.jpg@355w_355h_90Q",
+      "app_mimg": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114603_195269.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "浠婃椂浠ｅ叓瑙掓澂鏋滅矑閰稿ザ",
+      "specifics": "200g*2",
+      "market_price": "15.8",
+      "price": "8.6",
+      "number": "1",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2317/20160923173403_441876.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "鐖遍矞铚偮峰嚡鐗硅姃鏋�",
+      "specifics": "450-600g/鐩�",
+      "market_price": "21",
+      "price": "14.6",
+      "number": "1",
+      "img": "http://img01.bqstatic.com/upload/goods/201/607/1817/20160718171026_207686.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "绾㈢墰缁寸敓绱犲姛鑳介ギ鏂�",
+      "specifics": "250ml",
+      "market_price": "6.5",
+      "price": "6",
+      "number": "84",
+      "img": "http://img01.bqstatic.com/upload/goods/000/000/2201/0000002201_31880.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "绾㈢墰缁寸敓绱犲姛鑳介ギ鏂�",
+      "specifics": "250ml",
+      "market_price": "6.5",
+      "price": "6",
+      "number": "84",
+      "img": "http://img01.bqstatic.com/upload/goods/000/000/2201/0000002201_31880.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "鐖遍矞铚偮风櫨棣欐灉",
+      "specifics": "120g 2绮�/琚�",
+      "market_price": "19",
+      "price": "6.9",
+      "number": "6",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114603_195269.jpg@355w_355h_90Q",
+      "app_mimg": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114603_195269.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "浠婃椂浠ｅ叓瑙掓澂鏋滅矑閰稿ザ",
+      "specifics": "200g*2",
+      "market_price": "15.8",
+      "price": "8.6",
+      "number": "1",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2317/20160923173403_441876.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "鐖遍矞铚偮峰嚡鐗硅姃鏋�",
+      "specifics": "450-600g/鐩�",
+      "market_price": "21",
+      "price": "14.6",
+      "number": "1",
+      "img": "http://img01.bqstatic.com/upload/goods/201/607/1817/20160718171026_207686.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "绾㈢墰缁寸敓绱犲姛鑳介ギ鏂�",
+      "specifics": "250ml",
+      "market_price": "6.5",
+      "price": "6",
+      "number": "84",
+      "img": "http://img01.bqstatic.com/upload/goods/000/000/2201/0000002201_31880.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "绾㈢墰缁寸敓绱犲姛鑳介ギ鏂�",
+      "specifics": "250ml",
+      "market_price": "6.5",
+      "price": "6",
+      "number": "84",
+      "img": "http://img01.bqstatic.com/upload/goods/000/000/2201/0000002201_31880.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "鐖遍矞铚偮风櫨棣欐灉",
+      "specifics": "120g 2绮�/琚�",
+      "market_price": "19",
+      "price": "6.9",
+      "number": "6",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114603_195269.jpg@355w_355h_90Q",
+      "app_mimg": "http://img01.bqstatic.com/upload/goods/201/609/2311/20160923114603_195269.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "浠婃椂浠ｅ叓瑙掓澂鏋滅矑閰稿ザ",
+      "specifics": "200g*2",
+      "market_price": "15.8",
+      "price": "8.6",
+      "number": "1",
+      "img": "http://img01.bqstatic.com/upload/goods/201/609/2317/20160923173403_441876.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "鐖遍矞铚偮峰嚡鐗硅姃鏋�",
+      "specifics": "450-600g/鐩�",
+      "market_price": "21",
+      "price": "14.6",
+      "number": "1",
+      "img": "http://img01.bqstatic.com/upload/goods/201/607/1817/20160718171026_207686.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "绾㈢墰缁寸敓绱犲姛鑳介ギ鏂�",
+      "specifics": "250ml",
+      "market_price": "6.5",
+      "price": "6",
+      "number": "84",
+      "img": "http://img01.bqstatic.com/upload/goods/000/000/2201/0000002201_31880.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    },
+    {
+      "name": "绾㈢墰缁寸敓绱犲姛鑳介ギ鏂�",
+      "specifics": "250ml",
+      "market_price": "6.5",
+      "price": "6",
+      "number": "84",
+      "img": "http://img01.bqstatic.com/upload/goods/000/000/2201/0000002201_31880.jpg@355w_355h_90Q",
+      "enable": false,
+      "btnText": "宸叉姠鍏�"
+    }
+  ],
+  "nowTime": 1474959433,
+  "dateTime": "2016-09-27"
+}

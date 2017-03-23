@@ -1,0 +1,170 @@
+
+/*头部*/
+header{
+	width:10.0rem;
+	height: 1.240741rem;
+	background:#62a12f ;
+	display: flex;
+	justify-content: space-between;
+	line-height: 1.240741rem;
+}
+header p img{
+	width:0.592593rem;
+	height:0.592593rem;
+	margin:0.324074rem;
+}
+header p:nth-of-type(2){	
+	font-size:0.518519rem ;
+	color: white;
+}
+/*商品列表*/
+#list{
+	width: 10.0rem;
+	height:12.222222rem ;
+	overflow-y:scroll ;
+}
+#list .good{
+	width: 10.0rem;
+	height:2.962963rem;
+	border-bottom:0.027778rem solid #dbdbdb;
+	position: relative;
+	
+}
+#list .good a{
+	display: flex;
+	justify-content: flex-start;
+}
+#list .good .left{
+	width:3.148148rem;
+	height: 2.962963rem;
+	
+}
+#list .good .left img{
+	width:2.407407rem;
+	height: 2.407407rem;
+	margin: 0.203704rem 0.351852rem;
+}
+
+#list em{
+	font-size: 0.407407rem;
+	font-weight: bold;
+}
+.guige{
+	margin-top: 0.4rem;
+}
+.guige span{
+	font-size:0.277778rem ;
+	color:#adadad;
+}
+
+.price{
+	color: #e9a913;
+	font-size:0.333333rem ;
+	margin-top: 0.4rem;
+}
+#list .rubbishImg{
+	width:0.425926rem;
+	height:0.444444rem;
+}
+
+.changeNumber{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	right: 0.203704rem;
+	bottom: 0.203704rem;
+	
+}
+.changeNumber span:nth-of-type(1){
+	display: inline-block;
+	width:0.805556rem;
+	height:0.833333rem;
+	text-align: center;
+	line-height: 0.833333rem;
+	border: 0.027778rem solid #f1f1f1;
+	border-radius: 0.185185rem 0 0 0.185185rem;
+	background: #f1f1f1;
+	font-size: 0.324074rem;
+	
+}
+.changeNumber span:nth-of-type(2){
+	display: inline-block;
+	width:0.805556rem;
+	height:0.833333rem;
+	text-align: center;
+	line-height: 0.833333rem;
+	border: 0.027778rem solid #f1f1f1;
+	font-size: 0.305556rem;
+	
+}
+.changeNumber span:nth-of-type(3){
+	display: inline-block;
+	width:0.805556rem;
+	height:0.833333rem;
+	text-align: center;
+	line-height: 0.833333rem;
+	border: 0.027778rem solid #f1f1f1;
+	border-radius: 0 0.185185rem 0.185185rem 0;
+	background: #f1f1f1;
+	font-size: 0.324074rem;
+	
+}
+
+/*优惠*/
+#benefit{
+	width: 10.0rem;
+	padding-left:0.277778rem;
+}
+#benefit li{
+	height: 1.277778rem;
+	width: 10.0rem;
+	line-height:1.277778rem ;
+	border-bottom: 0.027778rem solid #6a6a6a;
+	background: url(../img/huan.jpg) no-repeat left center;
+	background-size:0.555556rem 0.555556rem ;
+	text-indent: 0.740741rem;
+}
+
+#benefit li a{
+	font-size: 0.37037rem;
+	color: #6a6a6a;
+}
+#benefit li a span{
+	float: right;
+	margin-right: 0.5rem;
+}
+
+/*结算*/
+#list #jiesuan{
+	width:10.0rem;
+	height:1.296296rem ;
+	position: fixed;
+	left: 0;
+	bottom: 1.5rem;
+	background: #f8f8f8;
+	padding-top: 0.185185rem;
+}
+#jiesuan #left{
+	float: left;
+	padding-left:0.277778rem ;
+}
+#jiesuan #left #heji span{
+	color:#f6ac00 ;
+}
+#jiesuan #left p{
+	line-height:0.509259rem ;
+}
+#jiesuan #right{
+	float: right;
+}
+#jiesuan #right button{
+	width: 1.851852rem;
+	height:0.925926rem ;
+	background:#f6ac00 ;
+	border-radius: 0.185185rem;
+	font-size: 0.416667rem;
+	color: white;
+}
+
+
+

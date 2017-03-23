@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="common/js/flexible.js"></script>
+		<link rel="stylesheet" href="common/css/reset.css" />
+		<link rel="stylesheet" href="common/css/footer.css" />
+		<script type="text/javascript" src="common/lib/angular.min.js" ></script>
+		<script type="text/javascript" src="common/lib/angular-ui-router.js" ></script>
+		<script type="text/javascript" src="common/js/swiper.js"></script>
+		<script type="text/javascript" src="common/lib/jquery.js"></script>
+		<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=0577b7a1a287d7932de43a6d27fd04a7"></script>
+	</head>
+	<body>
+			
+		<!--存放子页面-->
+		<div ui-view>
+			
+		</div>
+		
+		<!--footer-->
+		<div id="footer">
+			<ul>
+				<li>
+					<a ui-sref="home">
+						<img src="common/img/home2.png" />
+						<p>首页</p>
+					</a>
+				</li>
+				<li>
+					<a ui-sref="class">
+						<img src="common/img/sscs2.png" />
+						<p>分类</p>
+					</a>
+				</li>
+				<li>
+					<a ui-sref="cart">
+						<img src="common/img/cart2.png" />
+						<p>购物车</p>
+					</a>
+				</li>
+				<li>
+					<a ui-sref="mine">
+						<img src="common/img/mine2.png" />
+						<p>我的果园</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+		
+			var app=angular.module("myApp", ['ui.router'])	
+			
+		</script>
+			
+			<script type="text/javascript" src="factorys.js"></script>
+			<script type="text/javascript" src="services.js"></script>
+			<script type="text/javascript" src="router.js"></script>
+			<script type="text/javascript" src="cart/js/cart.js"></script>
+			<script type="text/javascript" src="home/js/home.js" ></script>
+			<script type="text/javascript" src="class/js/class.js"></script>		
+			<script type="text/javascript" src="detail/js/detail.js"></script>
+			<script type="text/javascript" src="location/js/location.js"></script>
+			<script type="text/javascript" src="login/js/regist.js" ></script>
+			<script type="text/javascript" src="login/js/log.js" ></script>
+	</body>
+</html>

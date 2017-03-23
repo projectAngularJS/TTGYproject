@@ -1,0 +1,217 @@
+#mine_header {
+  height: 1.3226rem;
+  width: 100%;
+  background-color: #63A230;
+  text-align: center;
+  color: white;
+  font-size: 0.596296rem;
+  line-height: 1.3226rem;
+  display: flex;
+  justify-content: space-around;
+}
+#mine_header section {
+  float: left;
+}
+#mine_header section img {
+  height: 0.8rem;
+  width: 0.8rem;
+  margin: 0.1545162rem 0.1rem;
+}
+#mine_header section p {
+  font-size: 0.35rem;
+}
+#photo {
+  height: 3.101852rem;
+  background-color: #F2F2F2;
+  padding: 0.3rem 0;
+}
+#photo section {
+  display: flex;
+  justify-content: space-around;
+}
+#photo section img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 0.06rem solid white;
+  border-radius: 50%;
+}
+#center ul {
+  background-color: #F2F2F2;
+  font-size: 0.426296rem;
+}
+#center ul li:nth-child(3) {
+  margin-bottom: 0.8rem;
+  border: none;
+}
+#center ul li:nth-child(8) {
+  margin-bottom: 0.8rem;
+  border: none;
+}
+#center ul li:nth-child(9) {
+  margin-bottom: 0.8rem;
+  border: none;
+}
+#center ul li:nth-child(10) {
+  line-height: 1rem;
+  clear: both;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #FF9933;
+  color: white;
+  text-align: center;
+  margin: 0 0 2rem;
+}
+#center ul li {
+  background-color: white;
+  height: 1rem;
+  border-bottom: 1px solid #CCCCCC;
+}
+#center ul li img {
+  height: 0.8rem;
+  width: 0.7rem;
+  margin: 0.1rem;
+  float: left;
+}
+#center ul li .sp {
+  color: #FFA400;
+  font-size: 0.4rem;
+}
+#center ul li span {
+  display: block;
+  height: 1rem;
+  line-height: 1rem;
+  float: left;
+}
+#center ul li .rt {
+  float: right;
+  margin: 0 0.2rem 0 0;
+}
+#logout {
+  height: 4.194444rem;
+  width: 7.824074rem;
+  background-color: rgba(50, 50, 50, 0.6);
+  border-radius: 0.2rem;
+  -webkit-box-shadow: 8px 8px 10px #999;
+  -moz-box-shadow: 8px 8px 10px #999;
+  position: fixed;
+  top: 6.833333rem;
+  left: 0.9rem;
+  padding: 0.3rem;
+}
+#logout p {
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin-bottom: 0.5rem;
+  line-height: 1.851852rem;
+  font-size: 0.47037rem;
+  color: white;
+}
+#logout button {
+  height: 0.925926rem;
+  width: 2.222222rem;
+  text-align: center;
+  color: #545454;
+  background-color: white;
+  margin: 0.2rem;
+  border-radius: 0.2rem;
+  border: ;
+}
+#logout button:nth-of-type(1) {
+  margin-left: 1.262963rem;
+}
+.about #text section {
+  height: 5.277778rem;
+  padding: 0.5rem 0.4rem;
+}
+.about #text section h3 {
+  font-size: 0.481481rem;
+  line-height: 1.203704rem;
+}
+.about #text section p {
+  font-size: 0.37037rem;
+  line-height: 0.655556rem;
+}
+.about #text section:first-child {
+  border-bottom: 1px dashed #CCCCCC;
+}
+.presenter #dingdan {
+  background-color: #F1F1F1;
+  height: 13rem;
+  padding: 0.314815rem 0.314815rem 2.777778rem;
+}
+.presenter #dingdan ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #CCCCCC;
+  border-radius: 0.2rem;
+}
+.presenter #dingdan ul li {
+  height: 0.925926rem;
+  line-height: 0.925926rem;
+  text-align: center;
+  background-color: #F1F1F1;
+}
+.presenter #dingdan ul li:nth-child(2) {
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  width: 33%;
+}
+.presenter #dingdan div {
+  display: flex;
+  justify-content: space-around;
+}
+.presenter #dingdan div img {
+  margin: 2rem auto;
+  height: 2.222222rem;
+  width: 2.222222rem;
+}
+.coupon div img {
+  width: 96%;
+  height: 3.388889rem;
+  margin: 0.2rem 0.2rem 0;
+}
+.presenter #convert {
+  padding: 0.314815rem 0.314815rem 2.777778rem;
+}
+.presenter #convert input {
+  height: 0.87963rem;
+  line-height: 0.87963rem;
+  font-size: 0.496296rem;
+}
+.presenter #convert input:nth-child(1) {
+  border-radius: 0.2rem 0 0 0.2rem;
+  border: 1px solid #CCCCCC;
+  color: #CCCCCC;
+  width: 72%;
+}
+.presenter #convert input:nth-of-type(2) {
+  border-radius: 0 0.2rem 0.2rem 0;
+  color: white;
+  text-align: center;
+  background-color: #F6AB00;
+  width: 26%;
+  border: none;
+}
+.presenter #convert div {
+  display: flex;
+  justify-content: space-around;
+}
+.presenter #convert div img {
+  margin-top: 2rem;
+  height: 2.222222rem;
+  width: 2.222222rem;
+}
+.presenter #convert div p {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.496296rem;
+}
+.presenter #convert div #know {
+  font-size: 0.396296rem;
+  color: #888888;
+  text-align: right;
+  font-weight: normal;
+  margin-top: 1rem;
+}

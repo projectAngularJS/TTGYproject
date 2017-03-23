@@ -1,0 +1,61 @@
+<link rel="stylesheet" type="text/css" href="./detail/css/detail.css" />
+<link rel="stylesheet" type="text/css" href="./common/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="./common/css/bootstrap.css" />
+<!--+++++++++++++++++++++这个文件是detail 的html  +++++++++++++++++++++++++++-->
+
+<div class="detail">
+	<div id="detail_header">
+		<section><img src="./detail/imgs/room.jpg"  onclick="history.back()"/></section>
+		<section><span id="">产品详情</span></section>
+		<section><img src="./detail/imgs/car.jpg" /><img src="./detail/imgs/people.jpg" /></section>
+	</div>
+	
+	<div id="swp">
+		<img src="{{id.img}}"/>
+	</div>
+
+	<div id="detail_name">
+		<h4>{{id.name}}</h4>
+		<p><span >规格:{{id.specifics}}</span><span id="ipt"><input type="button" id="" value="-" ng-click="jian()"/>
+			<!--<input type="text" id="detailNumber" value="1" />-->
+			<button id="detailNumber" style="height: 1rem;">{{detailNumber}}</button>
+			<input type="button" id="" value="+" ng-click="add()" /></span>			
+		</p>
+		<p id="prise"><span >￥{{id.price}}</span><span><input type="button" value="加入购物车" ng-click="addgood()"/><input type="button" value="立即购买"/></span></p>
+		
+	</div>
+	<div id="list">
+		<button>详细信息</button><button>用户评价</button>
+		<div id="massage">
+			<div class="container">
+				<table class="table  table-striped  table-hover">
+					<tr>
+						<td class="col-xs-3">产地</td>
+						<td class="col-xs-9">马来西亚</td>
+					</tr>
+					<tr>
+						<td>营养元素</td>
+						<td>钾，蛋白质，维生素</td>
+					</tr>
+					<tr>
+						<td>储藏方法</td>
+						<td>°冷藏h2</td>
+					</tr>
+					<tr>
+						<td>保鲜期</td>
+						<td>24个月</td>
+					</tr>
+				</table>
+			</div>
+			<img src="./detail/imgs/xq2.jpg"/>
+			<img src="./detail/imgs/xq1.jpg"/>
+			<img src="./detail/imgs/xq2.jpg"/>
+			<img src="./detail/imgs/xq1.jpg"/>
+			<img src="./detail/imgs/xq2.jpg"/>
+		</div>
+		
+		<div id="user-say">
+
+		</div>
+	</div>
+</div>

@@ -1,0 +1,59 @@
+<!--<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />-->
+		<!--  引入高德地图库，key是自己创建应用的key  -->
+		
+		<!--<script type="text/javascript" src="../common/js/flexible.js" ></script>-->
+		<!--<link rel="stylesheet" href="../mine/css/reset.css" />-->
+		<link rel="stylesheet" href="./location/css/location.css" />
+		
+	<!--</head>-->
+	<!--<body>-->
+		<div id="body">
+			<header class="header_location">
+				<img src="./location/img/locationBg1.jpg" onclick="history.back()"/>
+				<p>城市列表</p>
+			</header>
+			
+			<div class="main">
+				<div class="nowPosition">
+					<h3>当前位置:<span>{{ city }}</span></h3>
+				</div>
+				<!-- 填充地图的容器   -->
+				<div id="container"></div> 
+				
+				
+				<div class="province">
+					
+					<h3>热门城市列表</h3>
+					<ul>
+						<li ng-click="changeCity('北京')"><a>北京</a></li>
+						<li ng-click="changeCity('上海')"><a>上海</a></li>
+						<li ng-click="changeCity('广州')"><a>广州</a></li>
+						<li ng-click="changeCity('苏州')"><a>苏州</a></li>
+						<li ng-click="changeCity('南京')"><a>南京</a></li>
+						<li ng-click="changeCity('杭州')"><a>杭州</a></li>
+					</ul>
+				</div>
+				
+				<div class="city">
+					<h3>省/市列表</h3>
+					<div class="cityData" ng-repeat="provincedatas in citydata" >
+							<h4 ng-click="changePageFn();"><a>{{ provincedatas.name }}</a></h4>
+   							<ul style="display: none;">
+								<li ng-repeat="area in provincedatas.city"  ng-click="changeCity(area.name)"><a>{{ area.name }}</a></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	<script type="text/javascript" src="./location/js/location.js" ></script>
+	
+	</script>
+	<!--</body>
+</html>-->

@@ -1,0 +1,73 @@
+<link rel="stylesheet" type="text/css" href="./class/css/class.css" />
+<link rel="stylesheet" type="text/css" href="./common/css/reset.css" />
+<div class="class">
+	<div id="class_header">
+		<section ><img src="./class/imgs/room.jpg" /></section>
+		<section ><input type="search" name="" id="" value="" placeholder="寻找鲜果" /></section>
+		<section > <img src="./class/imgs/car.jpg" /></section>
+		<section > <img src="./class/imgs/people.jpg" /></section>
+	</div>
+
+	<div id="left" >
+		<ul>
+			<li ng-click="reXiao()">热销榜</li>
+			<li ng-click="tianTian()">天天特价</li>
+			<li ng-click="niuNai()">牛奶面包</li>
+			<li ng-click="youXuan()">优选水果</li>
+			<li ng-click="reXiao()">热销榜</li>
+			<li ng-click="tianTian()">天天特价</li>
+			<li ng-click="niuNai()">牛奶面包</li>
+			<li ng-click="youXuan()">优选水果</li>
+			<li ng-click="reXiao()">热销榜</li>
+			<li ng-click="tianTian()">天天特价</li>
+			<li ng-click="niuNai()">牛奶面包</li>
+			<li ng-click="youXuan()">优选水果</li>
+			<li ng-click="reXiao()">热销榜</li>
+			<li ng-click="tianTian()">天天特价</li>
+			<li ng-click="niuNai()">牛奶面包</li>
+			<li ng-click="youXuan()">优选水果</li>
+			<li ng-click="reXiao()">热销榜</li>
+			<li ng-click="tianTian()">天天特价</li>
+			<li ng-click="niuNai()">牛奶面包</li>
+			<li ng-click="youXuan()">优选水果</li>
+			<li ng-click="tianTian()">天天特价</li>
+			<li ng-click="niuNai()">牛奶面包</li>
+			<li ng-click="youXuan()">优选水果</li>
+		</ul>
+	</div>
+	<div id="right">
+		<ul>
+			<li ui-sref='detail' ng-repeat="item in data" ng-click="detailFn()">
+				<img src="{{item.img}}"/>
+				<p>{{item.name|limitTo:4}}</p>
+			</li>
+			<!--<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>
+			<li><img src="./class/imgs/9k=.jpg"/><p>奇异果</p></li>-->
+			<li><img src="./class/imgs/add.jpg"/><p>全部</p></li>
+		</ul>
+	</div>
+	
+</div>

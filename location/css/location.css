@@ -1,0 +1,126 @@
+#body{
+	width: 10rem;
+	/*height: 92.583333rem;*/
+
+}
+
+.header_location{
+	width: 10rem;
+	height: 1.277778rem;
+	line-height: 1.277778rem;
+	border: 0.009259rem solid #e3e3e3;
+	background-color: #75a739;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 666;
+	
+}
+.header_location img{
+	width: 0.259259rem;
+	height: 0.453703rem;
+	margin-left: 0.37037rem;
+}
+
+.header_location p{
+	/*width: 10rem;*/
+	height: 1.055555rem;
+	text-align: center;
+	color: white;
+	font-size: 0.481481rem;
+	display: inline-block;
+	text-indent: 3.24074rem;
+}
+
+.main{
+	width: 10.0rem;
+	height: 15rem;
+
+}
+
+.main .nowPosition h3{
+	padding-top: 0.925925rem;
+	
+}
+
+.main .nowPosition h3,.main .province h3,.main .city h3{
+	height: 1.296296rem;
+	line-height: 1.296296rem;
+	margin: 0.185185rem;
+	font-size: 0.416666rem;
+	color: #878787;
+	border-bottom:  0.046296rem solid #dcdcdc;
+	font-weight: normal;
+}
+.main  h3 span{
+	font-size: 0.37037rem;
+	color: black;
+	margin-left: 0.092592rem;
+}
+
+.main #container{
+	margin: 0.185185rem;
+	/*width: 9.925925rem;*/
+	height: 7.407407rem;
+	border: 0.037037rem solid #75a739;
+}
+
+.main .province ul{
+	height: 1.5625rem;
+	line-height: 1.5625rem;	
+}
+
+.main .province ul:last-child {
+	border-bottom: 0.018518rem solid #e0e0e0;
+}
+
+.main .province li{
+	/*width: 1.851851rem;*/
+	text-align: center;
+	display: inline-block;
+	height: 0.74074rem;
+	line-height: 0.74074rem;
+	padding: 0.185185rem;
+	border: 1px solid #e0e0e0;
+	border-radius: 0.185185rem;
+	background-color: #f3f3f3;
+	margin-left: 0.185185rem;
+	font-size: 0.407407rem;
+}
+
+.main .city .cityData{
+	margin: 0.185185rem;
+}
+
+.main .city .cityData h4{
+	height: 0.925925rem;
+	line-height: 0.925925rem;
+	margin: 0.185185rem;
+	font-size: 0.416666rem;
+	color: #878787;
+	background-color: #f3f3f3;
+	text-indent: 0.277777rem;
+	font-weight: normal;
+	border-radius: 0.185185rem;
+}
+
+
+.main .city .cityData ul{
+	margin-left: 0.185185rem;
+}
+
+.main .city .cityData ul li{
+	padding: 0.185185rem 0;
+	border-bottom: 0.009259rem dashed #f3f3f3;
+	text-indent: 0.648148rem;
+}
+
+
+
+
+
+
+
+
+
+

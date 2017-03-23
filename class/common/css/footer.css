@@ -1,0 +1,33 @@
+
+#footer {
+	clear: both;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  	height:1.203704rem;
+  	width:100%;
+}
+#footer ul{
+	height:1.203704rem;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#footer ul li {
+    list-style: none;
+    text-align: center;   
+}
+#footer ul li a p{
+    color: white;
+    font-size: 0.259259rem;
+	
+}
+#footer ul li a img{
+	width: 0.555556rem;
+	height:0.555556rem;
+}
+	
